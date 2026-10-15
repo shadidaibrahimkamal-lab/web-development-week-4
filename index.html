@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpendWise Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Sidebar navigation">
+        <div class="brand" aria-label="SpendWise brand">
+          <div class="brand-mark">S</div>
+          <div class="brand-copy">
+            <span class="brand-name">SpendWise</span>
+            <small>Finance Hub</small>
+          </div>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Main navigation">
+          <a href="#" class="nav-item active">
+            <span class="nav-icon">◫</span>
+            <span>Overview</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="nav-icon">◎</span>
+            <span>Budgets</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="nav-icon">▣</span>
+            <span>Transactions</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="nav-icon">◌</span>
+            <span>Goals</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="nav-icon">◍</span>
+            <span>Reports</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="nav-icon">⚙</span>
+            <span>Settings</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-panel">
+          <p class="panel-label">Monthly budget</p>
+          <h3>$6,480</h3>
+          <div class="progress" aria-label="Budget progress">
+            <span></span>
+          </div>
+          <p class="panel-meta">$2,140 left</p>
+        </div>
+      </aside>
+
+      <main class="dashboard">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Good morning, Sarah</p>
+            <h1>Budget overview</h1>
+          </div>
+
+          <div class="topbar-actions">
+            <button class="ghost-button" type="button">Export</button>
+            <button class="primary-button" type="button">Add budget</button>
+          </div>
+        </header>
+
+        <section class="summary-row" aria-label="Financial summary">
+          <div class="summary-tile">
+            <p>Income</p>
+            <h2>$8,420</h2>
+            <span class="positive">+12.4%</span>
+          </div>
+          <div class="summary-tile">
+            <p>Expenses</p>
+            <h2>$4,630</h2>
+            <span class="negative">-3.1%</span>
+          </div>
+          <div class="summary-tile">
+            <p>Savings</p>
+            <h2>$2,180</h2>
+            <span class="positive">+8.7%</span>
+          </div>
+        </section>
+
+        <section class="category-grid" aria-label="Category cards">
+          <article class="category-card" tabindex="0">
+            <div class="card-header">
+              <span class="card-icon food">F</span>
+              <span class="card-tag">Food</span>
+            </div>
+            <div class="card-body">
+              <h3>$540</h3>
+              <p>Groceries & dining</p>
+            </div>
+            <div class="card-footer">
+              <span class="trend positive">+5.2%</span>
+              <span>vs last month</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-header">
+              <span class="card-icon transport">T</span>
+              <span class="card-tag">Transport</span>
+            </div>
+            <div class="card-body">
+              <h3>$310</h3>
+              <p>Fuel, transit, rides</p>
+            </div>
+            <div class="card-footer">
+              <span class="trend positive">+1.8%</span>
+              <span>vs last month</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-header">
+              <span class="card-icon rent">R</span>
+              <span class="card-tag">Rent</span>
+            </div>
+            <div class="card-body">
+              <h3>$1,450</h3>
+              <p>Housing & utilities</p>
+            </div>
+            <div class="card-footer">
+              <span class="trend neutral">0.0%</span>
+              <span>unchanged</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-header">
+              <span class="card-icon entertainment">E</span>
+              <span class="card-tag">Entertainment</span>
+            </div>
+            <div class="card-body">
+              <h3>$420</h3>
+              <p>Movies, music, events</p>
+            </div>
+            <div class="card-footer">
+              <span class="trend negative">-2.4%</span>
+              <span>vs last month</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-header">
+              <span class="card-icon savings">S</span>
+              <span class="card-tag">Savings</span>
+            </div>
+            <div class="card-body">
+              <h3>$1,200</h3>
+              <p>Emergency fund & goals</p>
+            </div>
+            <div class="card-footer">
+              <span class="trend positive">+9.6%</span>
+              <span>vs last month</span>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-header">
+              <span class="card-icon utilities">U</span>
+              <span class="card-tag">Utilities</span>
+            </div>
+            <div class="card-body">
+              <h3>$280</h3>
+              <p>Internet, power, water</p>
+            </div>
+            <div class="card-footer">
+              <span class="trend negative">-1.1%</span>
+              <span>vs last month</span>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
